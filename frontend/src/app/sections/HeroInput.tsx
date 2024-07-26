@@ -14,7 +14,7 @@ function HeroInput() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-center justify-center p-10 bg-white/80 rounded-lg">
         <Input
-          className="col-span-8 md:col-span-5 h-14 placeholder:text-lg placeholder:text-secondary border-secondary"
+          className="col-span-8 md:col-span-5 h-14 md:placeholder:text-lg placeholder:text-secondary border-secondary"
           placeholder="Area, Compound, Real Estate Developer"
         />
         <Select

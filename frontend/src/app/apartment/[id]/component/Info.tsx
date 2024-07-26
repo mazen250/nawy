@@ -8,7 +8,7 @@ import { SiWhatsapp } from "react-icons/si";
 
 function Info({ data }: { data: any }) {
   return (
-    <div className="container mx-auto overflow-hidden">
+    <div className="mx-[5%] overflow-hidden">
       <div className="md:mx-auto mx-[5%]">
         <h1 className="text-2xl font-bold text-primary mt-10">
           {data?.residenceType}

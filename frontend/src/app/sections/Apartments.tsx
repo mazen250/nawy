@@ -31,7 +31,7 @@ const Apartments = ({
   }, []);
 
   return (
-    <div className="container mx-auto mb-10">
+    <div className="mx-[5%]  mb-10">
       <div className="flex flex-row justify-between items-center py-2">
         <h1 className="text-3xl font-bold text-primary mt-10 mb-5">{title}</h1>
         <h2 className="text-sm text-primary">{subtitle}</h2>

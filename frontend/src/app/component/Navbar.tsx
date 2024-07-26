@@ -30,7 +30,7 @@ function Navbar() {
 
   return (
     <div className="bg-white w-full">
-      <div className="h-[70px] flex items-center justify-between px-4  container mx-auto">
+      <div className="h-[70px] flex items-center justify-between px-4 mx-[5%]">
         <Link href="/">
           <Image
             src={"https://www.nawy.com/assets/icons/common/nawy.svg"}
