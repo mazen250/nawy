@@ -53,7 +53,7 @@ To run the project locally:
 1. Clone the repository:
 
    ```
-   git clone [repository-url]
+   git clone https://github.com/mazen250/nawy
    ```
 
 2. Build and start the Docker containers:
