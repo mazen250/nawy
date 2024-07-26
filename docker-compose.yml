@@ -1,15 +1,13 @@
 version: '3.8'
 
 services:
-  backend:
-    build: ./backend
-    container_name: backend
+  mongo:
+    image: mongo:latest
+    container_name: mongo
     ports:
-      - "4000:4000"
-    environment:
-      - MONGO_URI=mongodb://mongo:27017/nawy
-    depends_on:
-      - mongo
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
 
   frontend:
     build: ./frontend
@@ -19,13 +17,16 @@ services:
     depends_on:
       - backend
 
-  mongo:
-    image: mongo:latest
-    container_name: mongo
+  backend:
+    build: ./backend
+    container_name: backend
     ports:
-      - "27017:27017"
-    volumes:
-      - mongo-data:/data/db
+      - "4000:4000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/nawy
+    depends_on:
+      - mongo
+      
 
 volumes:
   mongo-data:
