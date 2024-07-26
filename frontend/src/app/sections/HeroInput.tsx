@@ -4,7 +4,7 @@ import React from "react";
 
 function HeroInput() {
   return (
-    <div className="flex flex-col mx-[5%] md:mx-0">
+    <div className="flex flex-col mx-[5%]">
       <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
         Find Your New Home
       </h1>
