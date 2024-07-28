@@ -166,4 +166,4 @@ Screenshots of the mobile app & Website can be found in the `screenshots` folder
 
 ---
 
-For any questions or issues, Don't hesitate to contact me on.
+For any questions or issues, Don't hesitate to contact me on mazenfayez56@gmail.com .
